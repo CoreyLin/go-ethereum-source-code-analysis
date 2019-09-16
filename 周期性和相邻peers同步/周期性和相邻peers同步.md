@@ -22,13 +22,13 @@ pm.fetcher.Start()实质上是调用了Fetcher的loop()方法，启动了一个�
 
 主要是处理两种类型的通知事件
 
-1. NewBlockHashesMsg
+1. **NewBlockHashesMsg**
 
 ![2.png](2.png)
 
 ![3.png](3.png)
 
-2. NewBlockMsg
+2. **NewBlockMsg**
 
 ![4.png](4.png)
 
